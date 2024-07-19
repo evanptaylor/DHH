@@ -24,7 +24,7 @@ global progress
 class Screenshot:
     def __init__(self, cookies, headless=False): #False by default for testing
         self.cookies = cookies
-        print(self.cookies)
+        #print(self.cookies)
         self.driver = self.init_driver(headless)
 
     def init_driver(self, headless):
@@ -56,7 +56,7 @@ class Screenshot:
         #before_cookies = self.driver.get_screenshot_as_base64()
         #logging.debug(before_cookies)
         time.sleep(random.uniform(0.3,0.7))
-        print(self.cookies)
+        #print(self.cookies)
         self.add_cookies()
         #after_cookies = self.driver.get_screenshot_as_base64()
         #logging.debug(after_cookies)
@@ -91,7 +91,7 @@ class Screenshot:
             time.sleep(random.uniform(3, 7))
             #filepath_edu = f"{save_path}{random.randint(1,1000000)}edu.png"
             edu_b64 = self.driver.get_screenshot_as_base64()
-            print('working')
+            print('working...')
         except Exception:
             print("no education")
             edu_b64 =-1
