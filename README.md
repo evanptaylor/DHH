@@ -1,9 +1,11 @@
 # DHH
 Note that this program requires Chrome browser to be installed on your local machine
+
+Download .zip from GitHub, then
 ```
 pip install -r requirements.txt
 ```
-Only run `application.py`
+Only ever run `application.py`. This spawns an instance of the program on your local server
 
 Access the local server at 
 ```
