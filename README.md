@@ -1,5 +1,5 @@
 # DHH
-
+Note that this program requires Chrome browser to be installed on your local machine
 ```
 pip install -r requirements.txt
 ```
