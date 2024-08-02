@@ -208,7 +208,7 @@ class Parser: #handles parsing screenshots
                                     'School(s)':'String. Lists any schools that the person attended. Add the graduation year in parentheses If none is listed, write Unknown',
                                     'Age':'Integer. The estimated age of the person based on their education years (today is July, 2024)',
                                     'Veteran':'Boolean. True if there is any indication that the person has served in the U.S. military and False otherwise',
-                                    'Mutual Connections':'String. List of names of mutual connections',
+                                    'Mutual Connections':'String. List of names of mutual connections. These will only come from the final image. The image will be a list of name(s). Above the list it will say "People", "1st", "2nd", and "3rd"',
                                     'Notes':'String. Synthesize a short bio about the person. It should include their experience, education, estimated age, and veteran information. The goal is to provide context for the fields above. State all information as fact. No filler words or phrases.'
                                 }
                                 """,
